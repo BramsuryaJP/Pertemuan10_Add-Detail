@@ -1,0 +1,23 @@
+
+<h1 class="mt-2"> Detail Contact : </h1>
+
+<div class="card text-white bg-dark" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= contact.name %> </h5>
+    <h6 class="card-subtitle mb-2 mt-2"><%= contact.phoneNumber %> </h6>
+    <p class="card-text"><%= contact.email %> </p>
+    <a href="/contact" class="card-link">Kembali</a>
+  </div>
+</div>
+
+
+<style>
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .card-link:hover {
+    color: grey;
+  }
+</style>
